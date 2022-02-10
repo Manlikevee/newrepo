@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -12,27 +13,54 @@
     <div class="searbox">
 
         <div class="searchname">
-            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter email" name="email">
         </div>
 
         <div class="searchcategory">
-
+            <label for="email">Email:</label>
+            <select name="" id="">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </select>
         </div>
 
         <div class="searchlocation">
-
+            <label for="email">Email:</label>
+                <select name="" id="">
+             <option value="volvo">Volvo</option>
+             <option value="saab">Saab</option>
+        </select>
         </div>
 
         <div class="searchpostdatestart">
-
+            <label for="email">Email:</label>
+            <input type="date" name="" id="">
         </div>
 
         <div class="searchpostdateend">
-
+            <label for="email">Email:</label>
+            <input type="date" name="" id="">
         </div>
 
 
     </div>
+
+
+    
+<h2>Responsive Inline Form</h2>
+<p>We have created an inline form that will stay horizontal until the screen width of the browser window is less than 850 pixels: then the form is displayed vertically instead of horizontally.</p>
+<p>Resize the browser window to see the effect.</p>
+
+<form class="form-inline" action="/action_page.php">
+ 
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+  <label>
+    <input type="checkbox" name="remember"> Remember me
+  </label>
+  <button type="submit">Submit</button>
+</form>
 
 
 </body>
