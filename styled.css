@@ -85,6 +85,14 @@ input[type=submit]:hover {
 
     .section{
       height: auto;
+width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(bg.png);
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 
     .box1{
